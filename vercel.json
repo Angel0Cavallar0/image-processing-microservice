@@ -1,0 +1,23 @@
+{
+  "functions": {
+    "pages/api/**/*.js": {
+      "memory": 3008,
+      "maxDuration": 30
+    },
+    "pages/api/health.js": {
+      "memory": 128,
+      "maxDuration": 5
+    }
+  },
+  "regions": ["gru1"],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {"key": "Access-Control-Allow-Origin", "value": "*"},
+        {"key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS"},
+        {"key": "Access-Control-Allow-Headers", "value": "Content-Type"}
+      ]
+    }
+  ]
+}

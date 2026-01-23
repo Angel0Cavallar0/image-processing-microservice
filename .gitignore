@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+
+# Vercel
+.vercel
+
+# Environment
+.env
+.env*.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Testing
+coverage/
+
+# Claude Code
+.claude/
+.claude.json
+.claude.json.backup
+
+# System
+.nvm/
+.npm/
+.cache/
+.config/
+.local/
+.ssh/
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.lesshst
+.motd_shown
+.sudo_as_admin_successful
+.mcp.json
+package-lock.json
