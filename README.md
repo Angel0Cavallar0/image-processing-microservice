@@ -50,21 +50,6 @@ npm run dev
 
 Acesse http://localhost:3000
 
-## Deploy na Vercel
-
-### Opção 1: Deploy Direto (Mais Rápido)
-
-1. Clique no botão "Deploy with Vercel" acima
-2. Conecte sua conta GitHub
-3. Após deploy, baixe as fontes usando Vercel CLI ou adicione-as manualmente
-
-### Opção 2: Via Dashboard
-
-1. Acesse [vercel.com/new](https://vercel.com/new)
-2. Importe este repositório: `https://github.com/Angel0Cavallar0/image-processing-microservice`
-3. As configurações de `vercel.json` serão aplicadas automaticamente
-4. Clique em "Deploy"
-
 ## Endpoints Disponíveis
 
 Acesse a URL do seu deploy + `/api/health` para verificar se está funcionando.
@@ -154,10 +139,6 @@ vercel --prod --force
 ## Licença
 
 MIT
-
-## Contribuindo
-
-PRs são bem-vindos! Para grandes mudanças, abra uma issue primeiro.
 
 ## Links Úteis
 
